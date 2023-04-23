@@ -5,14 +5,14 @@ function Home() {
   return (
     <Page className="flex flex-col px-5 md:px-0 gap-12">
       <section className="flex flex-col gap-6">
-        <Text variant="h1">🧙 Professor König to serve you</Text>
+        <Text variant="h1">🧙 Professeur König pour vous servir</Text>
         <Text className="text-zinc-600">
-          Maths and computer science for everyone.
+          Mathématiques et informatique pour tous.
         </Text>
       </section>
 
       <section className="flex flex-col gap-3">
-        <Text variant="h2">AI Chat Bot:</Text>
+        <Text variant="h2">Discussion:</Text>
         <div className="lg:w-2/3">
           <Chat />
         </div>
