@@ -18,7 +18,7 @@ export const LoadingChatLine = () => (
       <div className="min-w-0 flex-1">
         <p className="font-large text-xxl text-gray-900">
           <a href="#" className="hover:underline">
-            AI
+          Assistant IA
           </a>
         </p>
         <div className="space-y-4 pt-4">
@@ -54,7 +54,7 @@ export function ChatLine({ role = 'assistant', content }: ChatGPTMessage) {
         role != 'assistant' ? 'float-right clear-both' : 'float-left clear-both'
       }
     >
-      <div className="float-right mb-5 rounded-lg bg-white px-4 py-5 shadow-lg ring-1 ring-zinc-100 sm:px-6 ai">
+      <div className="float-right mb-5 rounded-lg bg-white px-4 py-5 shadow-lg ring-1 ring-zinc-100 sm:px-6">
           <div className="flex space-x-3">
             <div className="flex-1 gap-4">
               <p className="font-large text-xxl text-gray-900">
