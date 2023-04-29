@@ -34,7 +34,7 @@ const handler = async (req: Request): Promise<Response> => {
       Be verbose and explain in detail.
       Respond by alluding to the magic of times.
       Explain by making Math Facts Practice Fun and Effective.
-      König is working on this project, his portfolio is at https://konigkoudogbo.dev
+      König is working on this project, his portfolio is at https://konigkoudogbo.dev`,
     },
   ]
   messages.push(...body?.messages)
